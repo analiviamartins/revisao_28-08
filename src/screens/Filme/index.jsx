@@ -4,13 +4,11 @@ import MyButton from "../../components/MyButton/index"
 import Title from "../../components/Title/index"
 import styles from "./styles"
 
-export default function Guibi() {
+export default function Filme() {
   return (
     <View style={styles.container}>
-      <Title title={"Guibi screen"}/>
-
-      <MyButton screen= {"Home"} name={"go to Home"}/>
-      <MyButton screen= {"Totoro"} name={"go to totoro"}/>
+      <Title title={"Como treinar seu dragão"}/>
+      <MyButton screen= {"Home"} name= {"Back to Home"}/>
     </View>
   )
 }

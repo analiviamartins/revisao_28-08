@@ -2,6 +2,7 @@ import { StyleSheet } from "react-native-web";
 
 const styles = StyleSheet.create ( {
     container: {
+        flex: 1,
         justifyContent: "center",
         alignItems: "center",
     },
@@ -13,19 +14,10 @@ const styles = StyleSheet.create ( {
         marginBotton: 16,
         fontWeight: "bold",
     },
-    question: {
-        fontSize: 13,
-        marginBotton: 16,
+    titleCadastro: {
+        fontSize: 18,
+        marginTop: 16,
         fontWeight: "bold",
-    },
-    image: {
-        justifyContent: "center",
-        alignItems: "center",
-        marginTop: 10,
-        marginBotton: 16,
-        width: 150,
-      height: 150,
-      borderRadius: 100,
     }
 })
 
