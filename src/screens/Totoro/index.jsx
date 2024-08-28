@@ -4,14 +4,13 @@ import { TouchableOpacity } from 'react-native-web'
 import { useNavigation } from '@react-navigation/native'
 import styles from "./styles"
 
-export default function Home() {
+export default function Totoro() {
   const navigation = useNavigation();
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Home screen</Text>
-
-      <TouchableOpacity onPress={ () => navigation.navigate("Totoro")}>
-        <Text style={styles.text}>Go to Totoro</Text>
+      <Text style={styles.title}>Totoro screen</Text>
+      <TouchableOpacity onPress={ () => navigation.navigate("Home")}>
+        <Text style={styles.text}>Back to Home</Text>
       </TouchableOpacity>'
     </View>
   )

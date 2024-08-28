@@ -2,11 +2,10 @@ import { NavigationContainer } from "@react-navigation/native";
 import { StatusBar } from "expo-status-bar";
 import StackRoutes from "./stack.routes";
 
-const Routes= () =>{
+const Routes = () => {
     return (
         <NavigationContainer>
-            <StatusBar style="auto"/>
-
+            <StatusBar style="auto"/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
             <StackRoutes/>
         </NavigationContainer>
     )
