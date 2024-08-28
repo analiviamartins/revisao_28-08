@@ -10,6 +10,7 @@ export default function Home() {
       <Title title={"Home screen"}/>
 
       <MyButton screen= {"Totoro"} name={"go to totoro"}/>
+      <MyButton screen= {"Guibi"} name={"go to Guibi"}/>
     </View>
   )
 }

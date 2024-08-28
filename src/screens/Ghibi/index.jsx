@@ -4,12 +4,13 @@ import MyButton from "../../components/MyButton/index"
 import Title from "../../components/Title/index"
 import styles from "./styles"
 
-export default function Totoro() {
+export default function Guibi() {
   return (
     <View style={styles.container}>
-      <Title title={"Totoro screen"}/>
-      <MyButton screen= {"Home"} name= {"Back to Home"}/>
-      <MyButton screen= {"Guibi"} name={"go to Guibi"}/>
+      <Title title={"Guibi screen"}/>
+
+      <MyButton screen= {"Home"} name={"go to Home"}/>
+      <MyButton screen= {"Totoro"} name={"go to totoro"}/>
     </View>
   )
 }
